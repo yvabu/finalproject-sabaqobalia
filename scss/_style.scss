@@ -1,0 +1,26 @@
+body {
+    background-color: whitesmoke;
+}
+header {
+    .container {
+        @include mycontainer;
+        background-color: #F6623E;
+        height: 50px;
+        @include myflex;
+    }
+  .head2 {
+    background-color: #FFFFFF;
+    @include mycontainer;
+    border: 3px solid #FFFFFF;
+    @include clasiccflex;
+     ul {
+        @include clasiccflex;
+        width: 1200px;
+        }
+        }
+    }
+  section {
+    height: 80px;
+    
+  }  
+  

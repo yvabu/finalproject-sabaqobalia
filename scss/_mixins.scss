@@ -1,0 +1,18 @@
+@mixin mycontainer {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+@mixin myflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    h1 {
+        color: #454545;
+    }
+}
+@mixin clasiccflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
