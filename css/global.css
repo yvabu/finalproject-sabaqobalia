@@ -247,7 +247,8 @@ header .head2 ul a {
   background-color: #FFF8F6;
 }
 .s-2 .container .card1 p {
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   text-align: center;
   margin: 40px;
   color: #454545;
@@ -303,5 +304,7 @@ footer .container {
   width: 100%;
   margin: 0 auto;
   height: 500px;
+  background-image: url("../images/foot.png");
+  background-repeat: no-repeat;
   background-color: #FFF8F6;
 }

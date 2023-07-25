@@ -69,7 +69,8 @@ header {
         
         p {
           
-          width: 300px;
+          max-width: 300px;
+          width: 100%;
           text-align: center;
           margin: 40px;
           color: #454545;
@@ -113,7 +114,8 @@ header {
         @include mycontainer;
         
         height: 500px;
-        
+        background-image: url("../images/foot.png") ;
+        background-repeat: no-repeat;
         background-color:  #FFF8F6;
       }
     }
