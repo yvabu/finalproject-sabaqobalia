@@ -293,3 +293,15 @@ header .head2 ul a {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+footer {
+  height: 80px;
+  margin-top: 250px;
+}
+footer .container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  height: 500px;
+  background-color: #FFF8F6;
+}

@@ -106,4 +106,14 @@ header {
         @include clasiccflex;
       }
     }
-    
+    footer {
+      height: 80px;
+      margin-top: 250px;
+      .container {
+        @include mycontainer;
+        
+        height: 500px;
+        
+        background-color:  #FFF8F6;
+      }
+    }
