@@ -1,121 +1,123 @@
 body {
     background-color: whitesmoke;
-
 }
-header {
-    .container {
+.header1 {
+    background-color: #f6623e;
+
+    .mycontainer {
         @include mycontainer;
-        background-color: #F6623E;
         height: 50px;
         @include myflex;
+        justify-content: space-between;
         h1 {
-          font-family: 'Jost', sans-serif;
-          color: #454545;
+            font-family: "Jost", sans-serif;
+            color: #454545;
         }
     }
-  .head2 {
-    background-color: #FFFFFF;
-    @include mycontainer;
-    border: 3px solid #FFFFFF;
-    @include clasiccflex;
-     ul {
+}
+.header2 {
+    background-color: #ffffff;
+    .mycontainer {
+        @include mycontainer;
+        border: 3px solid #ffffff;
         @include clasiccflex;
-        width: 1200px;
-        a {
-          font-family: 'Jost', sans-serif;
-          color: #454545;
-        }
-        }
+        ul {
+            @include clasiccflex;
+            max-width: 1200px;
+            width: 100%;
+            flex-wrap: wrap;
+            gap: 20px;
+            a {
+                font-family: "Jost", sans-serif;
+                color: #454545;
+            }
         }
     }
-  .s-1 {
+}
+.s-1 {
     height: 80px;
     .container {
-      @include mycontainer;
-      margin-top: 5px;
-      
-      .myslide {
-        img {
-    
-      width: 100%;
-      }
+        @include mycontainer;
+        margin-top: 5px;
+
+        .myslide {
+            img {
+                width: 100%;
+            }
+        }
     }
-  } 
-  }
-  .s-2 {
+}
+.s-2 {
     margin-top: 650px;
     h1 {
-      text-align: center;
-      color: #454545;
-      font-family: 'Jost', sans-serif;
-      font-size: 30px;
-      margin-bottom: 18px
-     }
-    .container {
-      @include mycontainer;
-      
-      max-width: 1380px;
-      width: 100%;
-      
-      @include clasiccflex;
-      align-items: flex-start;
-      
-      
-      .card1 {
-        max-width: 400px;
-        width: 100%;
-        height: 400px;
-        background-color: #FFF8F6;
-        
-        p {
-          
-          max-width: 300px;
-          width: 100%;
-          text-align: center;
-          margin: 40px;
-          color: #454545;
-          font-family: 'Jost', sans-serif;
-          font-size: 20px;
-        }
-      }
-      .card2 {
-        max-width: 400px;
-        width: 100%;
-        height: 400px;
-        background-color: #FFF8F6;
-        p {
-        
-          width: 370px;
-          margin: 20px;
-          color: #454545;
-          font-family: 'Jost', sans-serif;
-          font-size: 20px
-        }
-      }
-      }
+        text-align: center;
+        color: #454545;
+        font-family: "Jost", sans-serif;
+        font-size: 30px;
+        margin-bottom: 18px;
     }
-    .s-3 {
-      height: 80px;
-      h1 {
+    .container {
+        @include mycontainer;
+
+        max-width: 1380px;
+        width: 100%;
+
+        @include clasiccflex;
+        align-items: flex-start;
+
+        .card1 {
+            max-width: 400px;
+            width: 100%;
+            height: 400px;
+            background-color: #fff8f6;
+
+            p {
+                max-width: 300px;
+                width: 100%;
+                text-align: center;
+                margin: 40px;
+                color: #454545;
+                font-family: "Jost", sans-serif;
+                font-size: 20px;
+            }
+        }
+        .card2 {
+            max-width: 400px;
+            width: 100%;
+            height: 400px;
+            background-color: #fff8f6;
+            p {
+                width: 370px;
+                margin: 20px;
+                color: #454545;
+                font-family: "Jost", sans-serif;
+                font-size: 20px;
+            }
+        }
+    }
+}
+.s-3 {
+    height: 80px;
+    h1 {
         text-align: center;
         @include myh1;
         margin-top: 20px;
-      }
-      .container {
+    }
+    .container {
         @include mycontainer;
         margin-top: 25px;
         @include clasiccflex;
-      }
     }
-    footer {
-      height: 80px;
-      margin-top: 250px;
-      .container {
+}
+footer {
+    height: 80px;
+    margin-top: 250px;
+    .container {
         @include mycontainer;
-        
+
         height: 500px;
-        background-image: url("../images/foot.png") ;
+        background-image: url("../images/foot.png");
         background-repeat: no-repeat;
-        background-color:  #FFF8F6;
-      }
+        background-color: #fff8f6;
     }
+}
