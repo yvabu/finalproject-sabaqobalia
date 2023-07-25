@@ -282,12 +282,14 @@ header .head2 ul a {
   max-width: 1400px;
   width: 100%;
   margin: 0 auto;
-  border: 2px solid red;
   margin-top: 25px;
-}
-.s-3 .container .sp1 {
-  border: 2px solid;
-  width: 100px;
-  height: 80px;
-  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }

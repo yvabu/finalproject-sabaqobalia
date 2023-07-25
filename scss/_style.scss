@@ -102,13 +102,8 @@ header {
       }
       .container {
         @include mycontainer;
-        border: 2px solid red;
         margin-top: 25px;
-        .sp1 {
-          border: 2px solid ;
-          width: 100px;
-          height: 80px;
-          border-radius: 50%;
+        @include clasiccflex;
       }
     }
-    }
+    
