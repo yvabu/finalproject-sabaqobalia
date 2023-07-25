@@ -1,5 +1,5 @@
 @mixin mycontainer {
-    max-width: 1440px;
+    max-width: 1400px;
     width: 100%;
     margin: 0 auto;
 }
@@ -13,4 +13,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+@mixin myh1 {
+    color: #454545;
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    
 }
