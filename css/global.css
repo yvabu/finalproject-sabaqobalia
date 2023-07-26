@@ -251,6 +251,9 @@ body {
   width: 100%;
   height: 400px;
   background-color: #fff8f6;
+  border-radius: 40px;
+  -webkit-box-shadow: #fff8f6;
+          box-shadow: #fff8f6;
 }
 .s-2 .mycontainer .card1 p {
   max-width: 300px;
@@ -266,6 +269,7 @@ body {
   width: 100%;
   height: 400px;
   background-color: #fff8f6;
+  border-radius: 40px;
 }
 .s-2 .mycontainer .card2 p {
   width: 370px;
@@ -302,6 +306,9 @@ body {
 }
 
 footer {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
   height: 80px;
   margin-top: 250px;
 }
@@ -319,29 +326,28 @@ footer .mycontainer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
-footer .mycontainer .lis1 {
-  margin-left: 70px;
+footer .mycontainer .mail {
+  margin-left: 50px;
 }
-footer .mycontainer .lis1 h1 {
+footer .mycontainer .mail h1 {
   color: #454545;
   font-family: "Jost", sans-serif;
   font-size: 30px;
   color: #f6623e;
+  margin-top: 20px;
 }
-footer .mycontainer .lis1 p {
+footer .mycontainer .mis h1 {
   color: #454545;
   font-family: "Jost", sans-serif;
   font-size: 30px;
-  margin-top: 40px;
-  font-size: 20px;
-  width: 300px;
+  color: #f6623e;
+  margin-top: 20px;
 }
-footer .mycontainer lis2 {
-  color: #454545;
-  font-family: "Jost", sans-serif;
-  font-size: 30px;
+footer .mycontainer .icon {
+  margin-right: 30px;
 }
