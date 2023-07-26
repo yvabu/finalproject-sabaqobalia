@@ -151,7 +151,7 @@ body {
 }
 .header1 .mycontainer {
   max-width: 1440px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   height: 50px;
   display: -webkit-box;
@@ -162,9 +162,6 @@ body {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 .header1 .mycontainer h1 {
   font-family: "Jost", sans-serif;
@@ -176,7 +173,7 @@ body {
 }
 .header2 .mycontainer {
   max-width: 1440px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   border: 3px solid #ffffff;
   display: -webkit-box;
@@ -203,7 +200,7 @@ body {
   width: 100%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 20px;
+  gap: 60px;
 }
 .header2 .mycontainer ul a {
   font-family: "Jost", sans-serif;
@@ -215,12 +212,9 @@ body {
 }
 .s-1 .container {
   max-width: 1440px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   margin-top: 5px;
-}
-.s-1 .container .myslide img {
-  width: 100%;
 }
 
 .s-2 {
@@ -233,9 +227,9 @@ body {
   font-size: 30px;
   margin-bottom: 18px;
 }
-.s-2 .container {
+.s-2 .mycontainer {
   max-width: 1440px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   max-width: 1380px;
   width: 100%;
@@ -252,13 +246,13 @@ body {
       -ms-flex-align: start;
           align-items: flex-start;
 }
-.s-2 .container .card1 {
+.s-2 .mycontainer .card1 {
   max-width: 400px;
   width: 100%;
   height: 400px;
   background-color: #fff8f6;
 }
-.s-2 .container .card1 p {
+.s-2 .mycontainer .card1 p {
   max-width: 300px;
   width: 100%;
   text-align: center;
@@ -267,13 +261,13 @@ body {
   font-family: "Jost", sans-serif;
   font-size: 20px;
 }
-.s-2 .container .card2 {
+.s-2 .mycontainer .card2 {
   max-width: 400px;
   width: 100%;
   height: 400px;
   background-color: #fff8f6;
 }
-.s-2 .container .card2 p {
+.s-2 .mycontainer .card2 p {
   width: 370px;
   margin: 20px;
   color: #454545;
@@ -291,9 +285,9 @@ body {
   font-size: 30px;
   margin-top: 20px;
 }
-.s-3 .container {
+.s-3 .mycontainer {
   max-width: 1440px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   margin-top: 25px;
   display: -webkit-box;
@@ -311,12 +305,43 @@ footer {
   height: 80px;
   margin-top: 250px;
 }
-footer .container {
+footer .mycontainer {
   max-width: 1440px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   height: 500px;
   background-image: url("../images/foot.png");
   background-repeat: no-repeat;
   background-color: #fff8f6;
-}/*# sourceMappingURL=global.css.map */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .mycontainer .lis1 {
+  margin-left: 70px;
+}
+footer .mycontainer .lis1 h1 {
+  color: #454545;
+  font-family: "Jost", sans-serif;
+  font-size: 30px;
+  color: #f6623e;
+}
+footer .mycontainer .lis1 p {
+  color: #454545;
+  font-family: "Jost", sans-serif;
+  font-size: 30px;
+  margin-top: 40px;
+  font-size: 20px;
+  width: 300px;
+}
+footer .mycontainer lis2 {
+  color: #454545;
+  font-family: "Jost", sans-serif;
+  font-size: 30px;
+}
