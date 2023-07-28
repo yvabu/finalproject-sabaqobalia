@@ -406,3 +406,51 @@ footer .mycontainer .icon {
   width: 300px;
   margin-top: 10px;
 }
+
+.uscontainer {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  margin-top: 20px;
+}
+.uscontainer .torpedo {
+  color: #454545;
+  font-family: "Jost", sans-serif;
+  font-size: 30px;
+  font-size: 20px;
+}
+.uscontainer .th1 {
+  color: #454545;
+  font-family: "Jost", sans-serif;
+  font-size: 30px;
+  color: black;
+  margin-top: 20px;
+}
+.uscontainer .logtor {
+  -webkit-transform: translate(350px, 5px);
+      -ms-transform: translate(350px, 5px);
+          transform: translate(350px, 5px);
+}
+@media (max-width: 780px) {
+  .uscontainer .logtor {
+    -webkit-transform: translate(140px, 5px);
+        -ms-transform: translate(140px, 5px);
+            transform: translate(140px, 5px);
+  }
+}
+@media (max-width: 500px) {
+  .uscontainer .logtor {
+    -webkit-transform: translate(20px, 5px);
+        -ms-transform: translate(20px, 5px);
+            transform: translate(20px, 5px);
+  }
+}
+
+.stcontainer {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
