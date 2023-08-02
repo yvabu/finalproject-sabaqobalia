@@ -849,3 +849,51 @@ section .shcontainer .defname .dnm {
   border: 10px solid white;
   margin-top: 20px;
 }
+section .shcontainer .defender2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+section .shcontainer .defname2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+section .shcontainer .defname2 .dnm2 {
+  color: gray;
+  background-color: white;
+  text-align: center;
+  max-width: 270px;
+  width: 100%;
+  border: 10px solid white;
+  margin-top: 20px;
+}
+section .shcontainer .naxmcvelebi {
+  -webkit-transform: translate(35%);
+      -ms-transform: translate(35%);
+          transform: translate(35%);
+  margin-top: 50px;
+}
+section .shcontainer .midfielder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
