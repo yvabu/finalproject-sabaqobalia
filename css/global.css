@@ -491,27 +491,34 @@ section .tconteiner .img2 {
   width: 100%;
   border: 10px solid white;
 }
-section .tconteiner .img3 {
+@media (max-width: 400px) {
+  section .tconteiner .img2 {
+    -webkit-transform: translate(5%, -5%);
+        -ms-transform: translate(5%, -5%);
+            transform: translate(5%, -5%);
+  }
+}
+section .tconteiner .img2 .img3 {
   -webkit-transform: translate(170%, -5%);
       -ms-transform: translate(170%, -5%);
           transform: translate(170%, -5%);
   margin-top: 50px;
 }
 @media (max-width: 540px) {
-  section .tconteiner .img3 {
+  section .tconteiner .img2 .img3 {
     -webkit-transform: translate(100%, -5%);
         -ms-transform: translate(100%, -5%);
             transform: translate(100%, -5%);
   }
 }
 @media (max-width: 412px) {
-  section .tconteiner .img3 {
-    -webkit-transform: translate(80%, -5%);
-        -ms-transform: translate(80%, -5%);
-            transform: translate(80%, -5%);
+  section .tconteiner .img2 .img3 {
+    -webkit-transform: translate(40%, -5%);
+        -ms-transform: translate(40%, -5%);
+            transform: translate(40%, -5%);
   }
 }
-section .tconteiner .img4 {
+section .tconteiner .img2 .img4 {
   -webkit-transform: translate(15%, -5%);
       -ms-transform: translate(15%, -5%);
           transform: translate(15%, -5%);
@@ -520,27 +527,27 @@ section .tconteiner .img4 {
   border: 10px solid white;
   margin-top: 50px;
 }
-section .tconteiner .img5 {
+section .tconteiner .img2 .img5 {
   -webkit-transform: translate(170%, -5%);
       -ms-transform: translate(170%, -5%);
           transform: translate(170%, -5%);
   margin-top: 50px;
 }
 @media (max-width: 540px) {
-  section .tconteiner .img5 {
+  section .tconteiner .img2 .img5 {
     -webkit-transform: translate(100%, -5%);
         -ms-transform: translate(100%, -5%);
             transform: translate(100%, -5%);
   }
 }
 @media (max-width: 412px) {
-  section .tconteiner .img5 {
+  section .tconteiner .img2 .img5 {
     -webkit-transform: translate(80%, -5%);
         -ms-transform: translate(80%, -5%);
             transform: translate(80%, -5%);
   }
 }
-section .tconteiner .th1 {
+section .tconteiner .img2 .th1 {
   font-size: 80px;
   color: black;
   -webkit-transform: translate(43%, -5%);
@@ -548,20 +555,20 @@ section .tconteiner .th1 {
           transform: translate(43%, -5%);
 }
 @media (max-width: 912px) {
-  section .tconteiner .th1 {
+  section .tconteiner .img2 .th1 {
     -webkit-transform: translate(50%, -5%);
         -ms-transform: translate(50%, -5%);
             transform: translate(50%, -5%);
   }
 }
 @media (max-width: 820px) {
-  section .tconteiner .th1 {
+  section .tconteiner .img2 .th1 {
     -webkit-transform: translate(58%, -5%);
         -ms-transform: translate(58%, -5%);
             transform: translate(58%, -5%);
   }
 }
-section .tconteiner .img6 {
+section .tconteiner .img2 .img6 {
   -webkit-transform: translate(15%, -5%);
       -ms-transform: translate(15%, -5%);
           transform: translate(15%, -5%);
@@ -569,7 +576,7 @@ section .tconteiner .img6 {
   border: 10px solid white;
 }
 @media (max-width: 412px) {
-  section .tconteiner .img6 {
+  section .tconteiner .img2 .img6 {
     -webkit-transform: translate(5%, -5%);
         -ms-transform: translate(5%, -5%);
             transform: translate(5%, -5%);
