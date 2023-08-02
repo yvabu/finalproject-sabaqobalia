@@ -8,95 +8,95 @@
         .staf {
             transform: translate(35%);
         }
-        .suratebi{
+        .mwvrt {
             @include clasiccflex;
-            margin-top: 30px;
-            .stafi {
-                color: gray;
-                background-color: white;
-                text-align: center;
-                max-width: 270px;
-                width: 100%;
-                border: 10px solid white ;
-            }
-        }
-        .mwvrtnelebi {
-            @include clasiccflex;
-        }
-        .gvarebi {
-            @include clasiccflex;
-            .gv {
-                color: gray;
-                background-color: white;
-                text-align: center;
-                max-width: 270px;
-                width: 100%;
-                border: 10px solid white ;
-            }
-        }
-        .mekareebi {
-            transform: translate(35%);
             margin-top: 50px;
-        }
-        .suratebi2 {
-            @include clasiccflex;
-            justify-content: space-around;
-            
-        }
-        .goalkipersnames {
-            @include clasiccflex;
-            justify-content: space-around;
-            .names {
-                color: gray;
-                background-color: white;
-                text-align: center;
-                max-width: 270px;
+            .card1 {
+                max-width: 250px;
                 width: 100%;
-                border: 10px solid white ;
-                margin-top: 20px;
-            }
-        }
-        .mcvelebi {
-            transform: translate(35%);
-            margin-top: 50px;
-        }
-        .defender1 {
-            @include clasiccflex;   
-        }
-        .defname {
-            @include clasiccflex;
-            .dnm {
                 
-                color: gray;
-                background-color: white;
-                text-align: center;
-                max-width: 270px;
-                width: 100%;
-                border: 10px solid white ;
-                margin-top: 20px;
+                .mname {
+                    color: gray;
+                    background-color: white;
+                    text-align: center;
+                    max-width: 270px;
+                    width: 100%;
+                    border: 10px solid white ;
+                    
+                }
             }
-        }
-        .defender2 {
-            @include clasiccflex;
+            .card2 {
+                max-width: 300px;
+                width: 100%;
+                
+                .mname {
+                    color: gray;
+                    background-color: white;
+                    text-align: center;
+                    max-width: 300px;
+                    width: 100%;
+                    border: 10px solid white ;
+                    
+                }
 
         }
-        .defname2 {
-            @include clasiccflex;
-            .dnm2 {
+    }
+    .keeper {
+        transform: translate(35%);
+        margin-top: 50px
+    }
+    .mekare {
+        @include clasiccflex;
+        justify-content: space-around;
+        
+        margin-top: 50px;
+        .card3 {
+            max-width: 250px;
+            width: 100%;
+            
+            .mename {
                 color: gray;
                 background-color: white;
                 text-align: center;
-                max-width: 270px;
+                max-width: 300px;
                 width: 100%;
                 border: 10px solid white ;
-                margin-top: 20px;
+                width: 100%;
+                margin-top: 10px;
             }
         }
-        .naxmcvelebi {
-            transform: translate(35%);
-            margin-top: 50px;
-        }
-        .midfielder {
-            @include clasiccflex;
+        .card3B {
+            max-width: 350px;
+            width: 100%;
+            
+            
+            .menameb {
+                color: gray;
+                background-color: white;
+                text-align: center;
+                max-width: 400px;
+                width: 100%;
+                border: 10px solid white ;
+                
+                margin-top: 10px;
+            }
         }
     }
+    .defender {
+        transform: translate(35%);
+        margin-top: 60px
+    }
+    .defendnames {
+        @include clasiccflex;
+        margin-top: 50px;
+        border: 2px solid red;
+        .card4 {
+            max-width: 250px;
+            width: 100%;
+            
+            .anri {
+                @include h1name;
+            }
+        }
+    }
+}

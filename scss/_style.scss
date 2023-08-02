@@ -68,11 +68,16 @@ body {
         @include mycontainer;
         @media (max-width:1100px) {
             display: inline-block;
-            
+            transform: translate(35%);
+        }
+        @media (max-width:540px) {
+            display: inline-block;
+            transform: translate(10%);
         }
 
+
         max-width: 1380px;
-        width: 100%;
+        width: 95%;
 
         @include clasiccflex;
         

@@ -243,7 +243,7 @@ body {
   width: 100%;
   margin: 0 auto;
   max-width: 1380px;
-  width: 100%;
+  width: 95%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -257,6 +257,17 @@ body {
 @media (max-width: 1100px) {
   .s-2 .mycontainer {
     display: inline-block;
+    -webkit-transform: translate(35%);
+        -ms-transform: translate(35%);
+            transform: translate(35%);
+  }
+}
+@media (max-width: 540px) {
+  .s-2 .mycontainer {
+    display: inline-block;
+    -webkit-transform: translate(10%);
+        -ms-transform: translate(10%);
+            transform: translate(10%);
   }
 }
 .s-2 .mycontainer .card1 {
@@ -455,6 +466,13 @@ footer .mycontainer .icon {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 30px;
 }
 
@@ -721,7 +739,7 @@ section .tconteiner .img6 {
       -ms-transform: translate(35%);
           transform: translate(35%);
 }
-.shcontainer .suratebi {
+.shcontainer .mwvrt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -731,9 +749,13 @@ section .tconteiner .img6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 50px;
 }
-.shcontainer .suratebi .stafi {
+.shcontainer .mwvrt .card1 {
+  max-width: 250px;
+  width: 100%;
+}
+.shcontainer .mwvrt .card1 .mname {
   color: gray;
   background-color: white;
   text-align: center;
@@ -741,43 +763,25 @@ section .tconteiner .img6 {
   width: 100%;
   border: 10px solid white;
 }
-.shcontainer .mwvrtnelebi {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.shcontainer .mwvrt .card2 {
+  max-width: 300px;
+  width: 100%;
 }
-.shcontainer .gvarebi {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.shcontainer .gvarebi .gv {
+.shcontainer .mwvrt .card2 .mname {
   color: gray;
   background-color: white;
   text-align: center;
-  max-width: 270px;
+  max-width: 300px;
   width: 100%;
   border: 10px solid white;
 }
-.shcontainer .mekareebi {
+.shcontainer .keeper {
   -webkit-transform: translate(35%);
       -ms-transform: translate(35%);
           transform: translate(35%);
   margin-top: 50px;
 }
-.shcontainer .suratebi2 {
+.shcontainer .mekare {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -789,111 +793,64 @@ section .tconteiner .img6 {
           justify-content: space-between;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-top: 50px;
 }
-.shcontainer .goalkipersnames {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+.shcontainer .mekare .card3 {
+  max-width: 250px;
+  width: 100%;
 }
-.shcontainer .goalkipersnames .names {
+.shcontainer .mekare .card3 .mename {
   color: gray;
   background-color: white;
   text-align: center;
-  max-width: 270px;
+  max-width: 300px;
   width: 100%;
   border: 10px solid white;
-  margin-top: 20px;
+  width: 100%;
+  margin-top: 10px;
 }
-.shcontainer .mcvelebi {
+.shcontainer .mekare .card3B {
+  max-width: 350px;
+  width: 100%;
+}
+.shcontainer .mekare .card3B .menameb {
+  color: gray;
+  background-color: white;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  border: 10px solid white;
+  margin-top: 10px;
+}
+.shcontainer .defender {
   -webkit-transform: translate(35%);
       -ms-transform: translate(35%);
           transform: translate(35%);
+  margin-top: 60px;
+}
+.shcontainer .defendnames {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 50px;
+  border: 2px solid red;
 }
-.shcontainer .defender1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.shcontainer .defendnames .card4 {
+  max-width: 250px;
+  width: 100%;
 }
-.shcontainer .defname {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.shcontainer .defname .dnm {
+.shcontainer .defendnames .card4 .anri {
   color: gray;
   background-color: white;
   text-align: center;
-  max-width: 270px;
+  max-width: 400px;
   width: 100%;
   border: 10px solid white;
-  margin-top: 20px;
-}
-.shcontainer .defender2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.shcontainer .defname2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.shcontainer .defname2 .dnm2 {
-  color: gray;
-  background-color: white;
-  text-align: center;
-  max-width: 270px;
-  width: 100%;
-  border: 10px solid white;
-  margin-top: 20px;
-}
-.shcontainer .naxmcvelebi {
-  -webkit-transform: translate(35%);
-      -ms-transform: translate(35%);
-          transform: translate(35%);
-  margin-top: 50px;
-}
-.shcontainer .midfielder {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  margin-top: 10px;
 }
