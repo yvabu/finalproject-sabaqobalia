@@ -1,5 +1,4 @@
-section {
-    height: 80px;
+
     .shcontainer {
         @include mycontainer;
         max-width: 1200px;
@@ -101,4 +100,3 @@ section {
             @include clasiccflex;
         }
     }
-}

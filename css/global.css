@@ -704,10 +704,7 @@ section .tconteiner .img6 {
   }
 }
 
-section {
-  height: 80px;
-}
-section .shcontainer {
+.shcontainer {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
@@ -716,12 +713,12 @@ section .shcontainer {
   border: 2px solid red;
   margin-top: 30px;
 }
-section .shcontainer .staf {
+.shcontainer .staf {
   -webkit-transform: translate(35%);
       -ms-transform: translate(35%);
           transform: translate(35%);
 }
-section .shcontainer .suratebi {
+.shcontainer .suratebi {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -733,7 +730,7 @@ section .shcontainer .suratebi {
           justify-content: space-between;
   margin-top: 30px;
 }
-section .shcontainer .suratebi .stafi {
+.shcontainer .suratebi .stafi {
   color: gray;
   background-color: white;
   text-align: center;
@@ -741,7 +738,7 @@ section .shcontainer .suratebi .stafi {
   width: 100%;
   border: 10px solid white;
 }
-section .shcontainer .mwvrtnelebi {
+.shcontainer .mwvrtnelebi {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -752,7 +749,7 @@ section .shcontainer .mwvrtnelebi {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-section .shcontainer .gvarebi {
+.shcontainer .gvarebi {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -763,7 +760,7 @@ section .shcontainer .gvarebi {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-section .shcontainer .gvarebi .gv {
+.shcontainer .gvarebi .gv {
   color: gray;
   background-color: white;
   text-align: center;
@@ -771,13 +768,13 @@ section .shcontainer .gvarebi .gv {
   width: 100%;
   border: 10px solid white;
 }
-section .shcontainer .mekareebi {
+.shcontainer .mekareebi {
   -webkit-transform: translate(35%);
       -ms-transform: translate(35%);
           transform: translate(35%);
   margin-top: 50px;
 }
-section .shcontainer .suratebi2 {
+.shcontainer .suratebi2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -790,7 +787,7 @@ section .shcontainer .suratebi2 {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-section .shcontainer .goalkipersnames {
+.shcontainer .goalkipersnames {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -803,7 +800,7 @@ section .shcontainer .goalkipersnames {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-section .shcontainer .goalkipersnames .names {
+.shcontainer .goalkipersnames .names {
   color: gray;
   background-color: white;
   text-align: center;
@@ -812,13 +809,13 @@ section .shcontainer .goalkipersnames .names {
   border: 10px solid white;
   margin-top: 20px;
 }
-section .shcontainer .mcvelebi {
+.shcontainer .mcvelebi {
   -webkit-transform: translate(35%);
       -ms-transform: translate(35%);
           transform: translate(35%);
   margin-top: 50px;
 }
-section .shcontainer .defender1 {
+.shcontainer .defender1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -829,7 +826,7 @@ section .shcontainer .defender1 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-section .shcontainer .defname {
+.shcontainer .defname {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -840,7 +837,7 @@ section .shcontainer .defname {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-section .shcontainer .defname .dnm {
+.shcontainer .defname .dnm {
   color: gray;
   background-color: white;
   text-align: center;
@@ -849,7 +846,7 @@ section .shcontainer .defname .dnm {
   border: 10px solid white;
   margin-top: 20px;
 }
-section .shcontainer .defender2 {
+.shcontainer .defender2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -860,7 +857,7 @@ section .shcontainer .defender2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-section .shcontainer .defname2 {
+.shcontainer .defname2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -871,7 +868,7 @@ section .shcontainer .defname2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-section .shcontainer .defname2 .dnm2 {
+.shcontainer .defname2 .dnm2 {
   color: gray;
   background-color: white;
   text-align: center;
@@ -880,13 +877,13 @@ section .shcontainer .defname2 .dnm2 {
   border: 10px solid white;
   margin-top: 20px;
 }
-section .shcontainer .naxmcvelebi {
+.shcontainer .naxmcvelebi {
   -webkit-transform: translate(35%);
       -ms-transform: translate(35%);
           transform: translate(35%);
   margin-top: 50px;
 }
-section .shcontainer .midfielder {
+.shcontainer .midfielder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
