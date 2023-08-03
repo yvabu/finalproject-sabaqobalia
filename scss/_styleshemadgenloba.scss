@@ -2,18 +2,26 @@
     .shcontainer {
         @include mycontainer;
         max-width: 1200px;
-        width: 100%;
-        border: 2px solid red;
+        width: 90%;
         margin-top: 30px;
         .staf {
-            transform: translate(35%);
+            transform: translate(40%);
+            @media (max-width:600px) {
+                transform: translate(0%);
+            }
+            
         }
         .mwvrt {
             @include clasiccflex;
+            flex-wrap: wrap;
+                
+            }
             margin-top: 50px;
             .card1 {
                 max-width: 250px;
                 width: 100%;
+                margin-top: 20px;
+                
                 
                 .mname {
                     color: gray;
@@ -42,17 +50,21 @@
         }
     }
     .keeper {
-        transform: translate(35%);
-        margin-top: 50px
+        transform: translate(40%);
+        margin-top: 50px;
+        @media (max-width:600px) {
+            transform: translate(0%);
+        }
     }
     .mekare {
         @include clasiccflex;
+        flex-wrap: wrap;
         justify-content: space-around;
-        
         margin-top: 50px;
         .card3 {
             max-width: 250px;
             width: 100%;
+
             
             .mename {
                 color: gray;
@@ -83,13 +95,17 @@
         }
     }
     .defender {
-        transform: translate(35%);
-        margin-top: 60px
+        transform: translate(40%);
+        margin-top: 50px;
+        @media (max-width:600px) {
+            transform: translate(0%);
+        }
+
     }
     .defendnames {
         @include clasiccflex;
+        flex-wrap: wrap;
         margin-top: 50px;
-        border: 2px solid red;
         .card4 {
             max-width: 250px;
             width: 100%;
@@ -99,4 +115,41 @@
             }
         }
     }
-}
+    .middefend {
+         transform: translate(40%);
+         margin-top: 50px;
+         @media (max-width:600px) {
+            transform: translate(0%);
+        }
+    }
+    .middname {
+        @include clasiccflex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        .card5 {
+            max-width: 250px;
+            width: 100%;
+            .anri {
+                @include h1name;
+            }
+        }
+    }
+    .attack {
+        transform: translate(40%);
+        margin-top: 50px;
+        @media (max-width:600px) {
+            transform: translate(0%);
+        }
+    }
+    .atackname {
+        @include clasiccflex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        .card5 {
+            max-width: 250px;
+            width: 100%;
+            .anri {
+                @include h1name;
+            }
+        }
+    }
