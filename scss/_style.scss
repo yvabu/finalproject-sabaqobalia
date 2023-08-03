@@ -22,13 +22,16 @@ body {
         @include mycontainer;
         border: 3px solid #ffffff;
         @include clasiccflex;
-        .mybar {
-            display: none;
-            @media (max-width:820px) {
-                display: inline-block;
-                
+       
+            .mybar {
+                display: none;
+                @media (max-width:820px) {
+                    display: inline-block;
+                    
+                }
             }
-        }
+        
+       
         ul {
             @include clasiccflex;
             max-width: 900px;
