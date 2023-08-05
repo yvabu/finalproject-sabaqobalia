@@ -73,7 +73,38 @@
                       
                         <i class="fa-solid fa-bars fa-flip-both fa-xl mybar"></i>
                         <div class="dropdowncenter">
+                      
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                                <div id="myDropdown" class="dropdown-content">
+                                  <a href="#home">Home</a>
+                                  <a href="#about">About</a>
+                                  <a href="#contact">Contact</a>
+                                </div>
+                              </div>
 
+
+                              <script>
+                                /* When the user clicks on the button, 
+                                toggle between hiding and showing the dropdown content */
+                                function myFunction() {
+                                  document.getElementById("myDropdown").classList.toggle("show");
+                                }
+                                
+                                // Close the dropdown if the user clicks outside of it
+                                window.onclick = function(event) {
+                                  if (!event.target.matches('.dropbtn')) {
+                                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                                    var i;
+                                    for (i = 0; i < dropdowns.length; i++) {
+                                      var openDropdown = dropdowns[i];
+                                      if (openDropdown.classList.contains('show')) {
+                                        openDropdown.classList.remove('show');
+                                      }
+                                    }
+                                  }
+                                }
+                                </script>
                             
             
                     </nav>
@@ -164,6 +195,7 @@
             <div class="mycontainer">
                 <div class="card1">
                     <img
+                         class="sheng"
                         style="width: 100%"
                         src="images/shengearena.jpg"
                         alt=""
@@ -174,7 +206,9 @@
                     </p>
                 </div>
                 <div class="card2">
-                    <img style="width: 100%" src="images/sar.jpg" alt="" />
+                    <img 
+                    class="sar"
+                    style="width: 100%" src="images/sar.jpg" alt="" />
                     <p>
                         სარაევო შავ-თეთრია,ქუთათურები კონფერენს ლიგის მეორე
                         საკვალიფიკაციო ეტაპზე გავიდნენ და ყაზახურ აქტობეს შინ 27

@@ -189,6 +189,37 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+.header2 .mycontainer .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.header2 .mycontainer .dropdown:hover {
+  background-color: #ddd;
+}
+.header2 .mycontainer .dropdown .dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.header2 .mycontainer .dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.header2 .mycontainer .dropdown .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 .header2 .mycontainer .mybar {
   display: none;
 }
@@ -271,6 +302,7 @@ body {
   }
 }
 .s-2 .mycontainer .card1 {
+  border: 10px solid #fff8f6;
   max-width: 400px;
   width: 100%;
   height: 400px;
@@ -278,6 +310,9 @@ body {
   border-radius: 40px;
   -webkit-box-shadow: #fff8f6;
           box-shadow: #fff8f6;
+}
+.s-2 .mycontainer .card1 .sheng {
+  border-radius: 40px;
 }
 .s-2 .mycontainer p {
   max-width: 300px;
@@ -294,10 +329,14 @@ body {
   }
 }
 .s-2 .card2 {
+  border: 10px solid #fff8f6;
   max-width: 400px;
   width: 100%;
   height: 400px;
   background-color: #fff8f6;
+  border-radius: 40px;
+}
+.s-2 .card2 .sar {
   border-radius: 40px;
 }
 @media (max-width: 1100px) {
@@ -418,6 +457,9 @@ footer .mycontainer .icon {
   color: black;
   width: 300px;
   margin-top: 10px;
+}
+.mcontainer .cardi1 img {
+  border-radius: 40px;
 }
 
 .uscontainer {
@@ -764,6 +806,15 @@ section .tconteiner .img6 {
   width: 100%;
   margin-top: 20px;
 }
+.shcontainer .card1 .kean {
+  border-radius: 40px;
+}
+.shcontainer .card1 .tornik {
+  border-radius: 40px;
+}
+.shcontainer .card1 .giorgi {
+  border-radius: 40px;
+}
 .shcontainer .card1 .mname {
   color: gray;
   background-color: white;
@@ -775,6 +826,9 @@ section .tconteiner .img6 {
 .shcontainer .card2 {
   max-width: 300px;
   width: 100%;
+}
+.shcontainer .card2 .jimi {
+  border-radius: 40px;
 }
 .shcontainer .card2 .mname {
   color: gray;
