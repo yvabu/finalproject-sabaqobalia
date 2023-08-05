@@ -22,6 +22,7 @@ body {
         @include mycontainer;
         border: 3px solid #ffffff;
         @include clasiccflex;
+        
        
             .mybar {
                 display: none;
