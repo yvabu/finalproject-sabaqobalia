@@ -189,18 +189,6 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.header2 .mycontainer .dropdown {
-  position: relative;
-  display: inline-block;
-}
-.header2 .mycontainer .dropdown .dropbtn {
-  background-color: #3498DB;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
 .header2 .mycontainer .mybar {
   display: none;
 }

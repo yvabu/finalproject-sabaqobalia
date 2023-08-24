@@ -22,20 +22,7 @@ body {
         @include mycontainer;
         border: 3px solid #ffffff;
         @include clasiccflex;
-        .dropdown {
-            position: relative;
-            display: inline-block;
-            .dropbtn {
-                background-color: #3498DB;
-                color: white;
-                padding: 16px;
-                font-size: 16px;
-                border: none;
-                cursor: pointer;
-              }
-              
-          }
-          
+       
        
             .mybar {
                 display: none;
